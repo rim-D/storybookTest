@@ -1,0 +1,49 @@
+/*
+ * 관리자 common css
+ */
+
+*:not(i) {font-family: 'Noto Sans', sans-serif!important;}
+.dataTable th{padding-right: 0!important;}
+
+/* input 하단에 description */
+.form-group .desc{font-size: 12px;color:#888;text-align: right; margin-top: .25rem;}
+
+/* chat roomt */
+.so_chat_area {display: none;position: absolute;top: 50px;right: 20px;}
+#so_chat {width: 500px;height: 470px;}
+
+/* icheck custom */
+.icheck-success {margin: 0!important;}
+[class*=icheck-]>label {
+    padding-top: 2px;
+}
+[class*=icheck-]>input:first-child+input[type=hidden]+label::before
+,   [class*=icheck-]>input:first-child+label::before{
+    margin-left: -26px!important;
+}
+[class*=icheck-]>input:first-child:checked+input[type=hidden]+label::after
+,   [class*=icheck-]>input:first-child:checked+label::after{
+    top: 2px;left: 3px;
+}
+/* select2 custom */
+.select2 {text-align: left;width: 100%!important;}
+.select2-selection{height: 100%!important;}
+.select2-selection__arrow {height: 100%!important;}
+.select2-container--default .select2-selection--single { padding: 0.35rem!important; }
+
+/* zs-common */
+.zs-cp{cursor: pointer;}
+.zs-table-loader {position: absolute;_min-height: 180px;z-index: 10;top: 0;left:0;}
+.zs-table-loader > i {margin-top: 3.5%;}
+.zs-table-loader > div {opacity: .7; position: absolute;top:0;left: 0;z-index: -1}
+#list_table {min-height: 99px}
+@media (min-width: 992px){
+    .custom-mt-lg-17 {/*label 없는 input-text*/
+        margin-top: 1.7rem!important;
+    }
+}
+@media (max-width: 575px){
+    .custom-mt-xs-1 {/*전체보기 버튼 xs사이즈에서 mt*/
+        margin-top: 1rem!important;
+    }
+}

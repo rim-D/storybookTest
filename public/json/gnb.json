@@ -1,0 +1,104 @@
+[
+  {
+      "menu_name" : "DT교육"
+    , "path"      : "/Dt"
+    , "pc"        : "Y"
+    , "mobile"    : "Y"
+    , "sub_menu"  : [
+      { "sub_menu_name" : "DT교육" , "sub_path" : "/Dt" }
+    ]
+  }
+,
+
+  {
+    "menu_name" : "기업일반교육"
+  , "path"      : "/Corp"
+  , "pc"        : "Y"
+  , "mobile"    : "Y"
+  , "sub_menu"  : [
+      { "sub_menu_name" : "북러닝" , "sub_path" : "/Corp/BookLearning" }
+    , { "sub_menu_name" : "이러닝" , "sub_path" : "/Corp/ELearning" }
+    , { "sub_menu_name" : "플립러닝" , "sub_path" : "/Corp/FlippedLearning" }
+  ]
+  }
+,
+
+  {
+    "menu_name" : "법정의무교육"
+  , "path"      : "/Duty"
+  , "pc"        : "Y"
+  , "mobile"    : "Y"
+  , "sub_menu"  : [
+    { "sub_menu_name" : "성희롱예방교육" , "sub_path" : "/Duty/SHP" }
+  , { "sub_menu_name" : "장애인인식개선교육" , "sub_path" : "/Duty/DAI" }
+  , { "sub_menu_name" : "개인정보보호교육" , "sub_path" : "/Duty/PIP" }
+  , { "sub_menu_name" : "직장내 괴롭힘 예방교육" , "sub_path" : "/Duty/WBP" }
+  ]
+  }
+,
+
+  {
+    "menu_name" : "생애설계 / 전직지원"
+  , "path"      : "/LifeNChangeJob"
+  , "pc"        : "Y"
+  , "mobile"    : "Y"
+  , "sub_menu"  : [
+    { "sub_menu_name" : "생애설계 프로그램" , "sub_path" : "/LifeNChangeJob/LifePlan" }
+  , { "sub_menu_name" : "전직지원 프로그램" , "sub_path" : "/LifeNChangeJob/OutPlacement" }
+  , { "sub_menu_name" : "재취업지원 의무화 프로그램" , "sub_path" : "/LifeNChangeJob/ReEmployment" }
+  ]
+  }
+,
+
+  {
+    "menu_name" : "기업특화교육"
+  , "path"      : "/CorpSpeci"
+  , "pc"        : "Y"
+  , "mobile"    : "Y"
+  , "sub_menu"  : [ { "sub_menu_name" : "커스텀 교육설계" , "sub_path" : "/CorpSpeci" } ]
+  }
+,
+
+  {
+    "menu_name" : "회사소개"
+  , "path"      : "/Intro"
+  , "pc"        : "N"
+  , "mobile"    : "Y"
+  , "sub_menu"  : [
+    { "sub_menu_name" : "Vision & Mission" , "sub_path" : "/Intro/Vision" }
+  , { "sub_menu_name" : "Family & Crew" , "sub_path" : "/Intro/Family" }
+  ]
+  }
+,
+
+  {
+    "menu_name" : "개인정보 처리방침"
+  , "path"      : "/Privacy"
+  , "pc"        : "N"
+  , "mobile"    : "N"
+  , "sub_menu"  : []
+  }
+,
+
+  {
+    "menu_name" : "이용약관"
+  , "path"      : "/TermOfUs"
+  , "pc"        : "N"
+  , "mobile"    : "N"
+  , "sub_menu"  : []
+  }
+,
+
+  {
+    "menu_name" : "고객센터"
+  , "path"      : "/Customer_center"
+  , "pc"        : "N"
+  , "mobile"    : "Y"
+  , "sub_menu"  : [
+    { "sub_menu_name" : "뉴스 & 공지" , "sub_path" : "/Customer_center/News" }
+  , { "sub_menu_name" : "교육문의" , "sub_path" : "/Customer_center/EduRequest" }
+  , { "sub_menu_name" : "제휴문의" , "sub_path" : "/Customer_center/Aliance" }
+  , { "sub_menu_name" : "채용문의" , "sub_path" : "/Customer_center/Hire" }
+  ]
+  }
+]
